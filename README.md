@@ -1,4 +1,5 @@
 # car-plate-number-extracter
+easyocr 을 사용하여 차량 번호판 사진을 통해 텍스트를 추출
 
 ## 주요 확인 사항
 
