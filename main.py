@@ -1,8 +1,8 @@
 import easyocr
 import text_extract_car_plate as tecp
 
-# reader = easyocr.Reader(['ko', 'en'],)
-# raw_car_plates_candidates = reader.readtext('images/car-plate.jpg', detail=0)
+reader = easyocr.Reader(['ko', 'en'],)
+raw_car_plates_candidates = reader.readtext('images/car-plate.jpg', detail=0)
 #
 # car_plate_candidates = tecp.extract_car_plates(raw_car_plates_candidates)
 #
